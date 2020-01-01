@@ -25,7 +25,6 @@ function Store() {
         <li key={item.itemId}>{item.item.name}</li>
       ))}
       </ul>
-  
     </div>
   );
 }
