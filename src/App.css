@@ -1,0 +1,81 @@
+/* ------------------------------ */
+/* Navigation */
+/* ------------------------------ */
+/* Large */
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
+
+/* ------------------------------ */
+/* Default Values */
+/* ------------------------------ */
+* {
+  margin: 0;
+} 
+
+html, body {
+  font-family: 'Raleway', sans-serif;
+  /* height: 100vh; */
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* ------------------------------ */
+/* Container */
+/* ------------------------------ */
+.container {
+  background-color: gray;
+  
+}
+
+/* ------------------------------ */
+/* Nav Links */
+/* ------------------------------ */
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:hover {
+  border-bottom: 1px solid;     
+  background: #CDFEAA;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
