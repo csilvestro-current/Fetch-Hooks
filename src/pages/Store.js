@@ -28,8 +28,8 @@ function Store() {
           <p>{item.item.images.type}</p>
         </div>
       ))}
+      </ul>
       </section>
-  
     </div>
   );
 }
