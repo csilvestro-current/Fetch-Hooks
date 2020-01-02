@@ -25,7 +25,7 @@ function Store() {
         <div key={item.itemId}>
           <h1>{item.item.name}</h1>
           <h2>{item.item.description}</h2>
-          <p>{item.item.images.type}</p>
+          <p>{item.item.type}</p>
         </div>
       ))}
       </section>
