@@ -20,11 +20,15 @@ function Store() {
   return(
     <div style={styles.container}>
       <h1>Fortnite</h1>
-      <ul>
+      <section>
       {items.map(item => (
-        <li key={item.itemId}>{item.item.name}</li>
+        <div key={item.itemId}>
+          <h1>{item.item.name}</h1>
+          <h2>{item.item.description}</h2>
+          <p>{item.item.images.type}</p>
+        </div>
       ))}
-      </ul>
+      </section>
   
     </div>
   );
